@@ -1,5 +1,7 @@
 # 📊 Data Analyst Job Market Dashboard
 
+link: https://app.powerbi.com/view?r=eyJrIjoiMjE2Y2U4YTctNDYyMC00ZWMxLThiOTAtZGE4YWYzZGFiZDM5IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D
+
 > An interactive Power BI dashboard that transforms thousands of data-job postings into actionable insights on hiring demand, salaries, and market trends.
 
 ![Executive Overview](images/Screenshot%202026-07-08%20170737.png)
