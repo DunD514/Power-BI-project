@@ -1,83 +1,99 @@
-# 📊 Data Jobs Market Dashboard
+# 📊 Data Analyst Job Market Dashboard
 
-> An interactive Power BI dashboard that transforms thousands of job postings into actionable insights about the global data job market.
+> An interactive Power BI dashboard that transforms thousands of data-job postings into actionable insights on hiring demand, salaries, and market trends.
 
-![Dashboard Overview](images/Screenshot%202026-07-05%20124237.png)
+![Executive Overview](images/Screenshot%202026-07-08%20170737.png)
 
 ---
 
 ## Why I Built This
 
-Job boards contain an enormous amount of valuable information, but it's difficult to spot trends by scrolling through thousands of listings.
+Job boards hold an enormous amount of valuable information, but it's hard to spot trends by scrolling through thousands of individual listings.
 
-I built this dashboard to answer questions that aspiring data professionals, recruiters, and hiring managers often ask:
+I built this dashboard to answer the questions aspiring data professionals, recruiters, and hiring managers actually ask:
 
 * Which data roles are hiring the most?
-* What salaries can candidates expect?
-* Which countries offer the most opportunities?
-* How common are remote positions?
-* Do companies typically require a degree?
-* Which platforms attract the highest number of job postings?
+* What salaries can candidates expect, by role?
+* How does company rating vary across postings?
+* Where are these jobs located, and how common is remote work?
+* Do employers typically require a degree or offer health insurance?
+* Which job platforms attract the most postings?
 
-Instead of manually exploring job listings, users can answer these questions in seconds through interactive visualizations.
+Instead of manually digging through listings, users can answer these questions in seconds through interactive filtering and drill-through navigation.
 
 ---
 
-# Dashboard Highlights
+## Dashboard Highlights
 
-## Executive Overview
+### Executive Overview
 
-The landing page provides a high-level snapshot of the job market, including:
+The landing page gives a high-level snapshot of the job market, including:
 
 * 📌 Total job postings
 * ⭐ Average company rating
 * 💰 Median yearly salary
 * ⏱ Median hourly salary
 
-Alongside these KPIs, users can explore:
+Alongside these KPIs, users can explore hiring trends over time, the volume of postings by job title, and a filterable list of job listings.
 
-* Hiring trends throughout the year
-* Distribution of jobs by role
-* Salary comparisons across positions
-* Detailed job listings with interactive filtering
+### Job Title Drill-Through
 
----
+![Job Title Details](images/Screenshot%202026-07-08%20170848.png)
 
-## Drill-Through Analysis
+Selecting any job title opens a dedicated details page with deeper, role-specific insights, including:
 
-![Job Details](images/Screenshot%202026-07-05%20124336.png)
-
-Selecting any job title opens a dedicated report page with deeper insights, including:
-
-* Median annual salary
-* Median hourly salary
+* Median annual and hourly salary for that role
 * Remote work availability
-* Degree requirements
-* Health insurance availability
-* Geographic distribution of jobs
-* Most popular hiring platforms
+* Degree and health insurance requirements
+* Geographic distribution of postings
+* Top hiring platforms
 * Employment type breakdown
 
-This allows users to move from a broad market view to role-specific insights with a single click.
+This lets users move from a broad market view to role-specific insights with a single click.
 
 ---
 
-# Technologies Used
+## Key Insights From the Data
 
-| Tool              | Purpose                                |
-| ----------------- | -------------------------------------- |
-| **Power BI**      | Dashboard development                  |
-| **Power Query**   | Data cleaning and transformation       |
-| **DAX**           | KPIs, calculated columns, and measures |
-| **Data Modeling** | Relationships and optimized reporting  |
+Beyond the visuals, the dashboard surfaces findings that are genuinely useful to job seekers, recruiters, and hiring managers:
+
+* **Data Engineers are the most in-demand and highest-paid core role**, with a median yearly salary of **$126K**, ahead of Data Scientists ($125K) and Data Analysts ($90K). Seniority pays off: Senior Data Scientists top out at **$156K** and Senior Data Engineers at **$147K** median yearly.
+* **Hiring volume is heavily concentrated in three roles** — Data Engineer, Data Analyst, and Data Scientist together account for the large majority of postings, while senior-level titles make up a much smaller share of the market.
+* **Monthly posting volume is volatile, not steadily growing** — postings swung from ~47K in one month to a low of ~12K later in the year before recovering, a signal that hiring demand for data roles is seasonal/cyclical rather than flat.
+* **Remote work is the exception, not the norm**: only **13.15%** of postings explicitly offer work-from-home, meaning most data roles still expect on-site or hybrid presence.
+* **Health insurance is rarely advertised up front**: just **12.83%** of postings mention it, which is useful context for candidates comparing total compensation, not just salary.
+* **A degree isn't always a hard requirement**: **32.52%** of postings don't mention a degree requirement at all, an encouraging signal for self-taught and bootcamp-trained candidates.
+* **Hiring is extremely concentrated on one platform**: LinkedIn alone accounts for far more postings than the next several platforms (BeBee, Indeed, ZipRecruiter) combined, making it the clear priority channel for both job seekers and recruiters sourcing candidates.
+* **Demand is global but clustered**: the geographic breakdown shows postings concentrated in North America and Europe, with a long tail spread across other regions, useful for candidates weighing relocation or remote opportunities.
+
+## Why This Matters (Business Value)
+
+This isn't just a set of charts — it's a decision-support tool:
+
+* **For job seekers:** benchmark expected pay by role and seniority before negotiating, and set realistic expectations around remote work, degree requirements, and benefits.
+* **For recruiters and hiring managers:** see where hiring is most competitive, which platforms actually reach candidates, and how their own postings compare to market medians.
+* **For career switchers/bootcamp grads:** the degree-requirement breakdown quantifies how open the market really is to non-traditional backgrounds.
+* **For workforce/market analysts:** the trend chart turns scattered job-board noise into a clear read on whether data-role hiring is accelerating or cooling month over month.
+
+The underlying value is turning thousands of unstructured job listings into a handful of numbers that someone can act on in under a minute, instead of scrolling job boards for hours.
 
 ---
 
-# Skills Demonstrated
+## Technologies Used
 
-* Data Cleaning
-* Data Transformation
-* Star Schema Data Modeling
+| Tool | Purpose |
+| --- | --- |
+| **Power BI** | Dashboard development and visualization |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | KPIs, calculated columns, and measures |
+| **Data Modeling** | Relationships and optimized reporting |
+
+---
+
+## Skills Demonstrated
+
+* Data Cleaning & Transformation
+* Data Modeling
 * DAX Calculations
 * Interactive Report Design
 * KPI Development
@@ -88,52 +104,31 @@ This allows users to move from a broad market view to role-specific insights wit
 
 ---
 
-# Key Insights
-
-The dashboard enables users to:
-
-* Compare salaries across different data careers.
-* Identify where hiring demand is growing.
-* Explore regional hiring trends around the world.
-* Understand the prevalence of remote work.
-* Evaluate education requirements for different roles.
-* Discover which platforms dominate job postings.
-
----
-
-# Repository Structure
+## Repository Structure
 
 ```text
 Power BI project/
 │
-├── Data_jobs_dashboard.pbix
+├── 01_power_bi_dashboard.pbix
 ├── README.md
 └── images/
-    ├── Screenshot 2026-07-05 124237.png
-    └── Screenshot 2026-07-05 124336.png
+    ├── Screenshot 2026-07-08 170737.png
+    └── Screenshot 2026-07-08 170848.png
 ```
 
 ---
 
-# Getting Started
+## Getting Started
 
 1. Clone or download this repository.
-2. Open `Data_jobs_dashboard.pbix` using Microsoft Power BI Desktop.
+2. Open `01_power_bi_dashboard.pbix` using Microsoft Power BI Desktop.
 3. Refresh the dataset if necessary.
 4. Explore the dashboard using slicers, filters, and drill-through pages.
 
 ---
 
-# What Makes This Dashboard Different?
-
-Rather than presenting static charts, this report is designed to encourage exploration. Every visual contributes to a larger story, allowing users to start with high-level market trends and progressively drill into specific roles, salaries, locations, and hiring patterns.
-
-The focus is not only on presenting data but on making the information easy to discover and interpret through an intuitive, interactive experience.
-
----
-
 ## Author
 
-**Duncan**
+**Duncan** ([@DunD514](https://github.com/DunD514))
 
-If you enjoyed this project or found it useful, consider giving the repository a ⭐.
+If you found this project useful, consider giving the repository a ⭐.
