@@ -1,8 +1,14 @@
 # 📊 Data Analyst Job Market Dashboard
 
-link: https://app.powerbi.com/view?r=eyJrIjoiMjE2Y2U4YTctNDYyMC00ZWMxLThiOTAtZGE4YWYzZGFiZDM5IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D
-
 > An interactive Power BI dashboard that transforms thousands of data-job postings into actionable insights on hiring demand, salaries, and market trends.
+
+<p align="left">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiMjE2Y2U4YTctNDYyMC00ZWMxLThiOTAtZGE4YWYzZGFiZDM5IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D">
+    <img src="https://img.shields.io/badge/🔴_Live_Dashboard-View_on_Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Live Power BI Dashboard" />
+  </a>
+</p>
+
+**▶️ [Explore the live, interactive dashboard here](https://app.powerbi.com/view?r=eyJrIjoiMjE2Y2U4YTctNDYyMC00ZWMxLThiOTAtZGE4YWYzZGFiZDM5IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D)** — no download required, filter and drill through directly in your browser.
 
 ![Executive Overview](images/Screenshot%202026-07-08%20170737.png)
 
@@ -122,6 +128,10 @@ Power BI project/
 
 ## Getting Started
 
+**Option 1 — View instantly (no install needed):**
+Open the **[live interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjE2Y2U4YTctNDYyMC00ZWMxLThiOTAtZGE4YWYzZGFiZDM5IiwidCI6ImQxZjE0MzQ4LWYxYjUtNGEwOS1hYzk5LTdlYmYyMTNjYmM4MSIsImMiOjEwfQ%3D%3D)** directly in your browser and start filtering right away.
+
+**Option 2 — Open in Power BI Desktop:**
 1. Clone or download this repository.
 2. Open `01_power_bi_dashboard.pbix` using Microsoft Power BI Desktop.
 3. Refresh the dataset if necessary.
